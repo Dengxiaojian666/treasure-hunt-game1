@@ -15,4 +15,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  // 新增base配置（仓库名为treasure-hunt-game1）
+  base: '/treasure-hunt-game1/'
 })
